@@ -7,6 +7,7 @@ apt update && apt upgrade -y
 
 sleep 10
 
+echo "marzban-instaling....."
 
 
 INSTALL_DIR="/opt"
