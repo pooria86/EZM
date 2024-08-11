@@ -1,10 +1,13 @@
+#!/usr/bin/env bash
+set -e
+
 # اجرای apt update و apt upgrade
 apt update && apt upgrade -y
 
+
 sleep 10
 
-#!/usr/bin/env bash
-set -e
+
 
 INSTALL_DIR="/opt"
 if [ -z "$APP_NAME" ]; then
