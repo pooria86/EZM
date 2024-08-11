@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin bash
 set -e
 
 # اجرای apt update و apt upgrade
